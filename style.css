@@ -1,0 +1,436 @@
+nav{
+    background-color: #88b423;
+}
+.nav-item{
+ font-weight: 600;
+ padding-left: 1.5rem;
+ }
+.nav-item .active{
+  color: #9a2420 !important;
+ }
+ .nav-item .nav-link:hover{
+  color: #9a2420 !important;
+ }
+ .fa-shopping-cart{
+  font-size: 27px;
+  position: relative;
+ }
+ .basket-num{
+  position: absolute;
+  top: 12px;
+ }
+.bg-yellow{
+    background-color: #F5B203 !important;
+}
+.text-yellow{
+  color: #fffc55;
+}
+.text-red{
+    color: #9a2420;
+}
+.text-green{
+    color: #88b423;
+}
+.logo-head{
+    width: 5rem;
+}
+.gap{
+    margin-top: 99px;
+}
+.yellow-btn{
+    background-color: #000000 !important;
+    font-size: 18px !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    transition: all ease .8s !important;
+}
+.yellow-btn:hover{
+  background-color: #F5B203 !important;
+  transition: all ease .8s !important;
+}
+
+
+.item-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-wrap .item-block {
+    width: 50%;
+    margin: 0 10px;
+    padding: 15px;
+    border: solid 1px #cccccc;
+    border-radius: 6px;
+}
+
+.item {
+    background: #f8f8f8;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.cart-wrap .add {
+    height: 35px;
+    min-width: 150px;
+    background: rgb(17, 17, 17);
+    cursor: pointer;
+    border-radius: 6px;
+    ;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    ;
+}
+
+.cart-wrap .removeItem {
+    height: 35px;
+    min-width: 150px;
+    background: red;
+    cursor: pointer;
+    border-radius: 6px;
+    ;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    ;
+}
+
+#cartItems .itemDetails {
+    border-bottom: solid 1px #cccccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.overflow .add {
+    position: absolute;
+    right: 35%;
+    bottom: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background: rgb(5, 5, 5);
+    color: #fff;
+    line-height: 25px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.item-detail h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.item-detail .price {
+    margin: 8px 0 50px 0;
+    font-size: 23px;
+    color:#88b423;
+    font-weight: 700;
+}
+
+
+.heading h1 {
+    margin: 0 0 15px 0;
+
+}
+
+ol#list-item {
+    padding-left: 0;
+}
+
+ol#list-item li {
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    background: lightblue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ol#list-item li .remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+#cart-items .total-text {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+}
+
+#cart-items .total-text span {
+    font-weight: 700;
+}
+
+.heading{
+    position: relative;
+}
+.heading::after{
+    position: absolute;
+    bottom:-10px;
+    left: 2%;
+    content: " ";
+    width: 180px;
+    height: 4px;
+    background-color: #AF0E06;
+}
+.top-left {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+  .image-zoom{
+    transition: all ease 0.5s !important;
+   }
+  .image-zoom:hover{
+   transform: scale(1.1) !important;
+   transition: all ease 0.5s !important;
+  }
+  @media screen and (max-width: 991px) {
+    .top-left {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      .heading-offer{
+        font-size: 20px !important;
+      }
+      .heading-offer1{
+        font-size: 20px !important;
+      }
+      .yellow-btn{
+        background-color: #000000 !important;
+        font-size: 13px !important;
+        color: white !important;
+        padding: 8px 9px !important;
+        transition: all ease .8s !important;
+    }
+   }
+  @media screen and (max-width: 420px) {
+    .top-left {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+      }
+      
+      .yellow-btn{
+        background-color: #000000 !important;
+        font-size: 10px !important;
+        color: white !important;
+        padding: 4px 9px !important;
+        transition: all ease .8s !important;
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .top-left {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      .heading-offer{
+        font-size: 15px !important;
+      }
+  }
+  @media screen and (max-width: 365px) {
+   .heading-offer1{
+    font-size: 18px !important;
+   }
+      .heading-offer{
+        font-size: 14px !important;
+      }
+      .offer-para{
+        font-size: 10px !important;
+      }
+  }
+  .top-left1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+
+
+
+  /* swiper product card css */
+  .swiper-div{
+    position: relative !important;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* footer start */
+  .footer-ul{
+    list-style: none;
+  }
+  .footer-ul li a{
+    color: #000000 !important;
+    text-decoration: none;
+    font-size: 18px;
+    font-size: 500 !important;
+    line-height: 2.2rem;
+  }
+  .checked{
+    color: #F5B203;
+  }
+  /* add to cart modal */
+  .add-tocart{
+    margin-right: 0px !important;
+  }
+  .addtocart-modal{
+    transition: all ease-in-out 0.6s !important;
+    background-color:  transparent !important;
+    background: transparent !important;
+  }
+
+  /* baners css */
+  .contact-banner{
+    background: url(img/contact-banner.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
+  .packet-banner{
+    background: url(img/packet-banner.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
+  .loose-banner{
+    background: url(img/loose-banner.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
+  .whole-banner{
+    background: url(img/whole-banner.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+  }
+  .banner-up{
+    background-color: #cccccc;
+    opacity: 0.7;
+    float: right !important;
+    border-radius: 10px;
+  }
+  .banner-head a{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .banner-head a:hover{
+    color: #AF0E06;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  /* contact form */
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.cancelbtn{
+  background-color: #9a2420;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+}
+.signupbtn{
+  background-color: #09a54f;
+  color: white;
+  border: none;
+  padding: 10px 25px; 
+}
+.address{
+  font-size: 20px;
+}
+/* page up css */
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+#scrollToTop i {
+  font-size: 24px;
+  color: #fff;
+  background-color: #88b423;
+  padding: 10px;
+  border-radius: 50%;
+}
+.fixed-icon{
+  position: fixed;
+  bottom: 50px;
+  left: -83px ;
+  transition: all ease 0.6s;
+  z-index: 2 !important;
+}
+.fixed-icon:hover{
+  left:0px !important;
+  transition: all ease 0.6s;
+}
+.back-area{
+  width: 130px !important;
+  position: relative;
+  bottom: 120px !important;
+  background-color: #09a54f !important;
+  padding: 10px 15px;
+}
+.customer-support{
+  position: absolute;
+  top: 10px;
+  right:8px;
+  font-size: 40px !important;
+  color: #ffffff; 
+}
+.item-image{
+  width: 50px !important;
+}
+ @media screen and (max-width: 991px) {
+  .basket-num{
+    position: absolute;
+    top: 240px;
+   }
+}
